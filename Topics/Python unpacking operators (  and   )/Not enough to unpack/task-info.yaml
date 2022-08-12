@@ -1,0 +1,18 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: <code>e</code> will be an empty list
+- text: <code>c</code> will be <code>None</code>
+- text: It will raise an error
+- text: <code>c</code> will be an empty list
+- text: <code>c</code> will be an empty tuple
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/15404#comment
+status: Solved
+record: -1

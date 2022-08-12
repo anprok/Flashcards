@@ -1,0 +1,15 @@
+<h2>Orchestra task</h2>
+<html>
+ <head></head>
+ <body>
+  <p>In an amateur orchestra of programmers, there are two types of instruments: strings and percussion. Information about the instruments and their number is sequentially recorded in two corresponding dictionaries.</p> 
+  <pre><code class="language-python">from collections import ChainMap
+
+
+string_instruments = {'violin': 5, 'guitar': 7, 'viola': 2, 'banjo': 1}
+percussion_instruments = {'castanets': 4, 'drum': 2, 'tambourine': 3, 'musical triangle': 1}</code></pre> 
+  <p>For convenience, both dictionaries are mapped into one <code class="language-python">ChainMap</code>object named <code class="language-python">band</code>.</p> 
+  <pre><code class="language-python">band = ChainMap(string_instruments, percussion_instruments)</code></pre> 
+  <p>The conductor of the orchestra wants to analyze the data of the dictionary with percussion instruments in order to understand what other instruments are missing. So, to do this, they need to get the second dictionary from the <code class="language-python">ChainMap</code>. How could it be done?</p>
+ </body>
+</html>

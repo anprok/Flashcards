@@ -1,0 +1,12 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: shopping_list = input().split()
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/13914#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Wed, 10 Aug 2022 18:30:43 UTC
+record: -1

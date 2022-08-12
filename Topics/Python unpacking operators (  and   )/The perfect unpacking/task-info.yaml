@@ -1,0 +1,22 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: <code>*a = some_string</code>
+- text: <code>a, b, c, d = some_string</code>
+- text: <code>*a, b, c = some_string</code>
+- text: <code>a, *b, c = some_string</code>
+- text: <code>*a, b = some_string</code>
+- text: <code>*a, = some_string</code>
+- text: <code>a, **b = some_string</code>
+- text: <code>a, *b = some_string</code>
+- text: <code>a, b, c, d, e, f = some_string</code>
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/15402#comment
+status: Solved
+record: -1
